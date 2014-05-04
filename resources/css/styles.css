@@ -1,0 +1,225 @@
+
+@import "http://fonts.googleapis.com/css?family=Russo+One|Varela+Round";
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background: url("images/bg3.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+    color: #111111;
+    font-family: "Myriad Pro","Trebuchet Ms",sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 0px;
+}
+p, ul li {
+    font-family: "Myriad Pro","Source Sans Pro",sans-serif;
+    font-size: 13px;
+}
+
+/*För styling mellan rader i CV*/
+hr {
+    border: none;
+    height: 1px;
+    background-color: #E8E8E8; 
+}
+
+em {
+    color: #53BCFF;
+    font-style: normal;
+}
+a {
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover { color: #c0c0c0; }
+a:active { color: #4C7E4B;}
+a.active_link {color: #4C7E4B;}
+
+div.active {
+    background-color: #000000;
+    bottom: 0;
+    float: left;
+    margin-left: 0;
+    width: 160px;
+    z-index: 1;
+}
+
+div#banner {
+    background-color: #FFFFFF;
+    border-bottom: 0 solid #000000;
+    box-shadow: 0 0 22px #111111;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+div.container {
+    background-color: #FF0000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+div.menu_item {
+    border-right: 1px solid #E8E8E8;
+    float: left;
+    height: 25px;
+    margin-top: 25px;
+    position: relative;
+    width: 160px;
+}
+div #active_bar {
+    background-color: #4C7E4B;
+    float: left;
+    height: 5px;
+    margin-top: 15px;
+    width: 160px;
+}
+div #header_name {
+    border-right: 0 solid #E8E8E8;
+    float: left;
+    height: 70px;
+    width: 250px;
+}
+div #header_menu {
+    float: left;
+    height: 70px;
+    margin-left: 40px;
+    width: 650px;
+}
+div #header_name h2 {
+    font-family: "Varela Round","Gotham",sans-serif;
+    font-size: 1.7em;
+    font-weight: 400;
+    line-height: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+div #header_name p {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-left: 40px;
+    margin-top: 0;
+}
+div #header_menu h2 {
+    font-family: "Varela Round","Gotham";
+    font-size: 0.9em;
+    font-weight: 100;
+    margin-top: 6px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+}
+div #content {
+    float: left;
+    height: 260px;
+    margin-left: 30px;
+    margin-top: 90px;
+    width: 900px;
+}
+div #content h2 {
+    font-size: 1.3em;
+}
+div #content2 {
+    background-color: #4C7E4B;
+    border-radius: 15px;
+    float: left;
+    height: 380px;
+    margin-left: 145px;
+    width: 660px;
+}
+div #video {
+    float: left;
+    height: 380px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 900px;
+}
+div #main_page {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 0 22px #111111;
+    float: left;
+    height: 320px;
+    width: 960px;
+}
+
+div#content p {
+    color: #000000;
+    line-height: 18px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+div#content h3 {
+    font-size: 0.9em;
+    line-height: 10px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+div#contact {
+    background-color: black;
+    border-radius: 15px;
+    border: 0px solid white;
+    display: none;
+    float: left;
+    height: 100px;
+    margin-left:2px;
+    margin-top: 6px;
+    opacity: 0.8;
+    width: 200px;
+}
+
+div#contact p{margin-top:10px; margin-left: 10px; color:white; font-style:normal; line-height:20px; margin-top:10px; margin-left:10px; }
+
+div#content div#cv_left {
+    float: left;
+    height: 700px;
+    margin-left: 30px;
+    width: 600px;
+}
+div#content div#cv_right {
+    float: left;
+    margin-left: 60px;
+    width: 200px;
+}
+
+div#content div#cv_right p {
+    line-height: 25px;
+}
+div#content div#bild {
+    background-image: url("images/CV1.png");
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+div#content div#portfolio_container1{float:left; background-color:white; width:390px; height:240px; border-radius:20px; margin-top:20px; margin-left:50px;}
+div#content div#portfolio_pic1{border-radius:10px;float:left; background:url('images/nollbild 1.png'); background-size:100% 100% ; width:370px; height:220px; margin-top:10px; margin-left:10px;}
+
+div#content div#portfolio_container2{float:left; background-color:white; margin-left:40px; width:390px; height:240px; border-radius:20px; margin-top:20px;}
+div#content div#portfolio_pic2{border-radius:10px;float:left; background:url('images/nollbild2.png'); background-size:100% 100%; width:370px; height:220px; margin-top:10px; margin-left:10px;}
+
+div#content div#portfolio_container3{float:left; background-color:white; width:340px; height:240px; border-radius:20px; margin-top:50px; margin-left:50px;}
+div#content div#portfolio_pic3{border-radius:10px;float:left; background:url('images/Fin fotot.jpg'); background-size:100% 100%; width:320px; height:220px; margin-top:10px; margin-left:10px;}
+
+
+
+
+
+
+
+
+
+
+
